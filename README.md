@@ -1,4 +1,4 @@
-# Programming assignment 1.1
+# Programming assignment 1.6
 
 *[CEGM1000 MUDE](http://mude.citg.tudelft.nl/)*
 
