@@ -9,3 +9,5 @@ Try running a script by opening `script_test.py` in the editor and clicking the 
 You can also execute python script from the CLI (either from the terminal in VS code or any terminal).
 
 Note that if you get stuck in the Python interpreter in your CLI, you can type `exit()` to get back to the native CLI prompt (e.g., cmd if you are using Windows).
+
+> By Tom van Woudenberg, Delft University of Technology. CC BY 4.0, more info [on the Credits page of Workbook](https://mude.citg.tudelft.nl/workbook-2025/credits.html).
