@@ -1,11 +1,5 @@
 # Programming Assignment 1.1
 
-*[CEGM1000 MUDE](http://mude.citg.tudelft.nl/)*
-
-*Written by: `<author(s)>`*
-
-*Due: `<day of week>`, `<month>` `<day>`, `<year>`.*
-
 ## Part 1
 
 **1.1 <question>**
@@ -22,4 +16,4 @@
 `<solution>`
 % solution_end
 
-*Copyright 2025 MUDE, TU Delft. This work is licensed under CC BY 4.0 License.*
+> By <author>, Delft University of Technology. CC BY 4.0, more info [on the Credits page of Workbook](https://mude.citg.tudelft.nl/workbook-2025/credits.html).
