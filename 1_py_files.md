@@ -6,7 +6,17 @@ So far we have mostly been using Jupyter notebooks, with a few examples of impor
 Try running a script by opening `script_test.py` in the editor and clicking the triangular `Run Python files` button in the top right corner. You should see a simple message printed in the CLI.
 
 ## Task 1.2 Execute python script from CLI
-You can also execute python script from the CLI (either from the terminal in VS code or any terminal).
+You can also execute python script from the CLI (either from the terminal in VS code or any terminal). Make sure you are in the correct directory.
+
+```
+conda activate mude-base
+```
+
+This makes sure you run python from the correct conda environment. After that you can execute files with:
+
+```
+python script_test.py
+```
 
 Note that if you get stuck in the Python interpreter in your CLI, you can type `exit()` to get back to the native CLI prompt (e.g., cmd if you are using Windows).
 
