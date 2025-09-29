@@ -20,4 +20,20 @@ python script_test.py
 
 Note that if you get stuck in the Python interpreter in your CLI, you can type `exit()` to get back to the native CLI prompt (e.g., cmd if you are using Windows).
 
+## Task 1.3 Create your own python script
+Create a new file called `my_first_script.py` and add the following code:
+
+```python
+import numpy as np
+
+def nerdy_computation(x):
+    """Returns the sum of the squares of the first x natural numbers using numpy."""
+    # YOUR CODE HERE
+    return # YOUR CODE HERE
+
+print("Hello MUDE! Let's compute something nerdy:")
+result = nerdy_computation(10)
+print(f"The sum of the squares of the first 10 natural numbers is {result}")
+```
+
 > By Tom van Woudenberg, Delft University of Technology. CC BY 4.0, more info [on the Credits page of Workbook](https://mude.citg.tudelft.nl/workbook-2025/credits.html).
