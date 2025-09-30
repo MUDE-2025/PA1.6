@@ -25,22 +25,32 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git checkout -b assignment
+          git fetch origin
+          # Pull the existing assignment branch
+          git checkout -b assignment origin/assignment
+          # Merge latest changes from main
           git merge origin/main
           git rm .github/workflows/generate-student-notebook.yml || true
           git rm requirements.txt || true
-          git add .
-          git commit -m "Update from main"
-          git push origin assignment
+          if ! git diff --cached --quiet || ! git diff --quiet; then
+            git add .
+            git commit -m "Update from main" || true
+          fi
+          git push origin assignment --force
 
       - name: Commit and push solution version
         env:
           TOKEN: ${{ secrets.FG_MUDE_2025_token }}
         run: |
-          git checkout -b solution
+          git fetch origin
+          # Pull the existing solution branch
+          git checkout -b solution origin/solution
+          # Merge latest changes from main
           git merge origin/main
           git rm .github/workflows/generate-student-notebook.yml || true
           git rm requirements.txt || true
-          git add .
-          git commit -m "Remove requirements and workflow file from solution branch"
+          if ! git diff --cached --quiet || ! git diff --quiet; then
+            git add .
+            git commit -m "Remove requirements and workflow file from solution branch" || true
+          fi
           git push origin solution --force
