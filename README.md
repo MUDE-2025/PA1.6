@@ -14,7 +14,7 @@ In this assignment you'll make exercises on:
 2. [Activate GitHub Copilot in VS Code](./2_activate_github_copilot.md)
 3. [Programming a Thermostat with AI](./3_programming_a_thermostat_with_ai.ipynb)
 
-Beware, the third assignment can be a bit of a challenge. But try to co-program with GitHub Copilot!
+Beware, the third assignment can be a bit of a challenge. But try to co-program with GitHub Copilot! There's no need to complete it fully, as long as you fulfill the criteria below.
 
 You pass this PA if you:
 - You've created a new python script called `my_first_script.py` which returns correct results
