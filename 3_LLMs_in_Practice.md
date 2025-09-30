@@ -80,7 +80,9 @@ This controller should turn the heater on when the temperature is below the setp
 
 Implement all auxiliary functions in the other modules. Use AI to help you understand the purpose of each function and how to implement it.
 
-> Example prompt: "What is the purpose of the `update` function in `assignment-files/sensors/filters.py` and how can I implement it in Python?"
+> Example prompt: "What is the purpose of the `update` function in `assignment-files/sensors/filters.py`?"
+
+*Please note that not all implementation are required to pass the assignment, as soon as you've passed the tests you passed the assignment. However, we welcome you to implement as much as you like.*
 
 ## Task 3.5 Test your implementation
 
@@ -92,7 +94,7 @@ Use AI to help you modify the scenarios and make the heater more sensitive, more
 
 > Example prompt: "How can I modify the `cold_morning.yaml` scenario to make the door open event more impactful?"
 
-## Task 3.7 *(Extra Challenge Using AI)* Implement Monte Carlo simulations to estimate the uncertainty in the temperature regulation.
+## Task 3.7 *(Extra Challenge)* Implement Monte Carlo simulations to estimate the uncertainty in the temperature regulation.
 
 This involves running multiple simulations with different random seeds and analyzing the results. Use AI to help you understand how to implement this and analyze the results. This will involve providing the entire project as context, so it is especially useful to use an integrated LLM like GitHub Copilot.
 
