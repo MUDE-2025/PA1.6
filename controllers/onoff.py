@@ -24,4 +24,13 @@ class OnOffThermostat:
         #if ...:
         #    self.state ...
         #elif ...:
+        lower = self.setpoint - self.deadband / 2.0
+        upper = self.setpoint + self.deadband / 2.0
+        if measured_temp >= self.safety_high:
+            self.state = 0
+            return self.state
+        if measured_temp < lower:
+            self.state = 1
+        elif measured_temp > upper:
+            self.state = 0
         return self.state
