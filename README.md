@@ -28,6 +28,6 @@ You pass this PA if you:
     - It turns heating off early if the predicted temperature will exceed the upper deadband limit, even if the current temperature is below the threshold.
     - It turns heating on when the temperature is falling and the predicted value will drop below the lower deadband limit.
   - The step_room function in the room module:
-    - Givess a higher temperature after one simulation step with the heater on compared to off.
+    - Gives a higher temperature after one simulation step with the heater on compared to off.
 
 > By Tom van Woudenberg and Stanislaw Ostyk-Narbutt, Delft University of Technology. CC BY 4.0, more info [on the Credits page of Workbook](https://mude.citg.tudelft.nl/workbook-2025/credits.html).
