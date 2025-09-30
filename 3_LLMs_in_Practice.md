@@ -100,4 +100,4 @@ This involves running multiple simulations with different random seeds and analy
 
 > Example prompt: "How can I implement Monte Carlo simulations in the thermostat?"
 
-> By Stanislaw Ostyk-Narbutt, Delft University of Technology. CC BY 4.0, more info [on the Credits page of Workbook](https://mude.citg.tudelft.nl/workbook-2025/credits.html).
+> By Tom van Woudenberg and Stanislaw Ostyk-Narbutt, Delft University of Technology. CC BY 4.0, more info [on the Credits page of Workbook](https://mude.citg.tudelft.nl/workbook-2025/credits.html).
