@@ -7,7 +7,7 @@ This project introduces you to the typical workflow when working on larger progr
 ## Assignment Description
 A thermostat is a device that regulates the temperature of a system so that the system's temperature is maintained near a desired setpoint. The thermostat will control the temperature of a room by turning a heater on and off based on the current temperature and a desired setpoint. There are two main strategies for controlling the heater: a simple on/off controller and a predictive on/off controller. You will implement both strategies and compare their performance. 
 
-In this simulation, the room temperature is affected by the heater and the outside temperature. Moreoever, there is a "door opening" event that substantially drops the temperature. You can control all of these factors in the scenario files located in the `scenarios` folder. Two example simulations are provided already: `door_open.yaml` provides a simple door opening event using a simple onoff thermostat, and `cold_morning.yaml` provides an especially cold morning with a predictive onoff thermostat.
+In this simulation, the room temperature is affected by the heater and the outside temperature. Moreover, there is a "door opening" event that substantially drops the temperature. You can control all of these factors in the scenario files located in the `scenarios` folder. Two example simulations are provided already: `door_open.yaml` provides a simple door opening event using a simple onoff thermostat, and `cold_morning.yaml` provides an especially cold morning with a predictive onoff thermostat.
 
 To run the simulation, you will use the provided `main.py` file by running:
 
