@@ -18,6 +18,8 @@ jobs:
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.FG_MUDE_2025_token }}
+          ref: ${{ github.event.pull_request.head.sha }} #https://stackoverflow.com/questions/62334460/git-history-in-a-github-action
+          fetch-depth: 0
 
       - name: Commit and push changes assignment version
         env:
