@@ -19,7 +19,8 @@ class Environment:
         '''
         # --- Student code starts here ---
         # Hint: Make sure you make the temperature sinusoidal and take into account the door event!
-
+        # Hint, use self.amplitude, self.period_s, self.door_start_s, self.door_duration_s, self.door_drop_C, self.base to make use of the values defined in the dataclass
+        
         # --- Student code ends here ---
         
         return 0.0 # remove when code is added

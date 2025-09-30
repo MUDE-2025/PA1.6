@@ -25,11 +25,30 @@ class PredictiveOnOff:
             dt: Time difference since last update (seconds).
             Returns the current state (0=OFF, 1=ON).
         '''
-        # --- Student code starts here ---
-        ## hint: Predict the temperature tau seconds into the future using a discrete derivative.
 
-        # --- Student code ends here ---
+        if meas_filtered >= self.safety_high:
+            self.state = 0
+            self._update_diag(meas_filtered, dt, meas_filtered)  # pred doesn't matter here
+            return self.state
 
+        # Predict a short time into the future using discrete derivative
+        if self.last_meas is None:
+            T_pred = meas_filtered
+        else:
+            dTdt = (meas_filtered - self.last_meas) / dt
+            T_pred = meas_filtered + self.tau * dTdt
+
+        lower = self.setpoint - self.deadband / 2.0
+        upper = self.setpoint + self.deadband / 2.0
+
+        # Decision using predicted temperature
+        if T_pred < lower:
+            self.state = 1
+        elif T_pred > upper:
+            self.state = 0
+        # else: keep previous state
+
+        self._update_diag(meas_filtered, dt, T_pred, lower, upper)
         return self.state
 
     def _update_diag(self, meas: float, dt: float, T_pred: float, lower: float | None = None, upper: float | None = None):
@@ -37,9 +56,10 @@ class PredictiveOnOff:
             This includes the last measured temperature, the last predicted temperature,
             and the current lower and upper thresholds based on setpoint and deadband.
         '''
-        
-        # --- Student code starts here ---
-
-        # --- Student code ends here ---
-
-        pass # remove when code is added
+        self.last_pred = T_pred
+        self.last_meas = meas
+        if lower is None or upper is None:
+            lower = self.setpoint - self.deadband / 2.0
+            upper = self.setpoint + self.deadband / 2.0
+        self.lower_threshold = lower
+        self.upper_threshold = upper

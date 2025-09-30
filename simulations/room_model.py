@@ -17,7 +17,7 @@ def step_room(T: float, heater_on: int, T_out: float, R: float, C: float, P: flo
     '''
     # --- Student code starts here ---
     # Hint: Use the Euler method to integrate the differential equation.
-
+    # RC model: dT/dt = (T_out - T)/(R*C) + heater_on * P/C + noise
+    
     # --- Student code ends here ---
-
     return 0.0 # remove when code is added

@@ -14,7 +14,4 @@ class MovingAverageFilter:
         ''' Update the moving average filter with a new value x.
             Returns the current filtered value.
         '''
-        # --- Student code starts here ---
-
-        # --- Student code ends here ---
         return 0.0 # remove when code is added
