@@ -61,7 +61,7 @@ First, install the required dependencies by running:
 
 ```bash
 conda active mude-base
-conda install -r pyyaml pytest
+conda install pyyaml pytest
 ```
 
 ## Task 3.2 Familiarize yourself with the codebase
