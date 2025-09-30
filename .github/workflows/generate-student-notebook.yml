@@ -19,11 +19,6 @@ jobs:
         with:
           token: ${{ secrets.FG_MUDE_2025_token }}
 
-      - name: Set up Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.12'
-
       - name: Commit and push changes assignment version
         env:
           TOKEN: ${{ secrets.FG_MUDE_2025_token }}
@@ -32,14 +27,11 @@ jobs:
           git config --local user.name "GitHub Action"
           git checkout -b assignment
           git merge origin/main
-          git add .
-          git commit -m "Generate assignment version"
-          git rm .github/workflows/generate-student-notebook.yml
-          git rm requirements.txt
+          git rm .github/workflows/generate-student-notebook.yml || true
+          git rm requirements.txt || true
           git add .
           git commit -m "Update from main"
           git push origin assignment
-          fi
 
       - name: Commit and push solution version
         env:
@@ -47,11 +39,8 @@ jobs:
         run: |
           git checkout -b solution
           git merge origin/main
-          git add .
-          git commit -m "Generate solution version"
-          git rm .github/workflows/generate-student-notebook.yml
-          git rm requirements.txt
+          git rm .github/workflows/generate-student-notebook.yml || true
+          git rm requirements.txt || true
           git add .
           git commit -m "Remove requirements and workflow file from solution branch"
           git push origin solution --force
-          fi
