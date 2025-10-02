@@ -1,13 +1,13 @@
 # Programming a Thermostat with AI
 
-In this assignment, you will create a thermostat program that controls the temperature of a room. Your goal is to use AI to help you write the code for the thermostat. 
+In this assignment, you will create a thermostat program that controls the temperature of a room. Code is provided that simulates the temperature evolution in the room for a given scenario in interaction with a heating system. However, the controllers for the thermostat and models for the room and environment are not yet implemented, so the simulation will not work as expected. Your task is to implement the controllers and any auxiliary functions needed to make the simulation work correctly. 
 
-This project introduces you to the typical workflow when working on larger programming projects that contain multiple files and modules. In these cases, copy-pasting code snippets is far less effective than working with an LLM integrated into your programming environment. We highly recommend using GitHub Copilot. 
+Your goal is to use AI to help you write the code for the thermostat. This project introduces you to the typical workflow when working on larger programming projects that contain multiple files and modules. In these cases, copy-pasting code snippets is far less effective than working with an LLM integrated into your programming environment. We highly recommend using GitHub Copilot. 
 
 ## Assignment Description
 A thermostat is a device that regulates the temperature of a system so that the system's temperature is maintained near a desired setpoint. The thermostat will control the temperature of a room by turning a heater on and off based on the current temperature and a desired setpoint. There are two main strategies for controlling the heater: a simple on/off controller and a predictive on/off controller. You will implement both strategies and compare their performance. 
 
-In this simulation, the room temperature is affected by the heater and the outside temperature. Moreover, there is a "door opening" event that substantially drops the temperature. You can control all of these factors in the scenario files located in the `scenarios` folder. Two example simulations are provided already: `door_open.yaml` provides a simple door opening event using a simple onoff thermostat, and `cold_morning.yaml` provides an especially cold morning with a predictive onoff thermostat.
+In this simulation, the room temperature is affected by the heater and the outside temperature. Moreover, there is a "door opening" event that substantially drops the temperature. You can control all of these factors in the scenario files located in the `scenarios` folder. Two example scenarios are provided already: `door_open.yaml` includes a door opening event using a simple onoff thermostat, and `cold_morning.yaml` provides an especially cold morning with a predictive onoff thermostat.
 
 To run the simulation, you will use the provided `main.py` file by running:
 
@@ -52,8 +52,6 @@ sim:
   seed: 123 # Random seed for reproducibility of random events
   init_T: # Initial room temperature (C)
 ```
-
-Please note that if you run the simulation now, you will see that the controllers are not yet implemented, and the simulation will not work as expected. Your task is to implement the controllers and any auxiliary functions needed to make the simulation work correctly. Furthermore, no plots are generated yet, you will also need to implement the plotting functions and other auxiliary functions at some point.
 
 ## Task 3.1 Update your MUDE environment
 
