@@ -9,7 +9,7 @@ A thermostat is a device that regulates the temperature of a system so that the 
 
 In this simulation, the room temperature is affected by the heater and the outside temperature. Moreover, there is a "door opening" event that substantially drops the temperature. You can control all of these factors in the scenario files located in the `scenarios` folder. Two example scenarios are provided already: `door_open.yaml` includes a door opening event using a simple onoff thermostat, and `cold_morning.yaml` provides an especially cold morning with a predictive onoff thermostat.
 
-To run the simulation, you will use the provided `main.py` file by running:
+To run the simulation, you need to call the provided `main.py` file with a specific scenario as input. You do this in the CLI with this command:
 
 ```bash
 python main.py --scenario scenarios/door_open.yaml # Example scenario 1
