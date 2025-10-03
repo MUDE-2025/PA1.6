@@ -20,10 +20,10 @@ sensor:
   dropout_prob: 0.03
 
 controller:
-  type: onoff
+  type: predictive_onoff
   setpoint: 21.0
   deadband: 1.0
-  tau: 35.0
+  tau: 15.0
   safety_high: 26.0
 
 model:
