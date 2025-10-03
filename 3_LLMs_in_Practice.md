@@ -5,7 +5,7 @@ In this assignment, you will create a thermostat program that controls the tempe
 Your goal is to use AI to help you write the code for the thermostat. This project introduces you to the typical workflow when working on larger programming projects that contain multiple files and modules. In these cases, copy-pasting code snippets is far less effective than working with an LLM integrated into your programming environment. We highly recommend using GitHub Copilot. 
 
 ## Assignment Description
-A thermostat is a device that regulates the temperature of a system so that the system's temperature is maintained near a desired setpoint. The thermostat will control the temperature of a room by turning a heater on and off based on the current temperature and a desired setpoint. There are two main strategies for controlling the heater: a simple on/off controller and a predictive on/off controller. You will implement both strategies and compare their performance. 
+A thermostat is a device that regulates the temperature of a system so that the system's temperature is maintained near a desired setpoint. The thermostat will control the temperature of a room by turning a heater on and off based on the current temperature and a desired setpoint. There are two main strategies for controlling the heater: a simple on/off controller and a predictive on/off controller. You will implement the on/off controller (the predictive on/off controller is implemented for you) and compare their performance. This requires you to implement some auxiliary functions in other modules as well.
 
 In this simulation, the room temperature is affected by the heater and the outside temperature. Moreover, there is a "door opening" event that substantially drops the temperature. You can control all of these factors in the scenario files located in the `scenarios` folder. Two example scenarios are provided already: `door_open.yaml` includes a door opening event using a simple onoff thermostat, and `cold_morning.yaml` provides an especially cold morning with a predictive onoff thermostat.
 
@@ -66,7 +66,7 @@ conda install pyyaml pytest
 
 Use AI to familiarize yourself with the provided codebase. Understand how the different modules interact with each other. Also use it to understand the file structure.
 
-> Example prompt: "Explain the file structure of this project and how the different modules interact with each other."
+> Example prompt: "Explain the file structure of this project's main.py and how the different modules interact with each other."
 
 ## Task 3.3 Implement the `onoff` controller in `assignment-files/controllers/onoff.py`
 
@@ -74,7 +74,7 @@ This controller should turn the heater on when the temperature is below the setp
 
 > Example prompt: "How does the onoff controller work and how can I implement it in Python?"
 
-## Task 3.4 Implement all auxiliary functions in the other modules. 
+## Task 3.4.additional Implement all auxiliary functions in the other modules. 
 
 Implement all auxiliary functions in the other modules. Use AI to help you understand the purpose of each function and how to implement it.
 
@@ -82,17 +82,17 @@ Implement all auxiliary functions in the other modules. Use AI to help you under
 
 *Please note that not all implementation are required to pass the assignment, as soon as you've passed the tests you passed the assignment. However, we welcome you to implement as much as you like.*
 
-## Task 3.5 Test your implementation
+## Task 3.5.additional Test your implementation
 
 Test your implementation by running the provided scenarios and checking the plots generated in the `outputs/figures` folder. 
 
-## Task 3.6 Modify the scenarios
+## Task 3.6.additional Modify the scenarios
 
 Use AI to help you modify the scenarios and make the heater more sensitive, more powerful, or to create more challenging scenarios. Then investigate how the duty cycle and temperature regulation change.
 
 > Example prompt: "How can I modify the `cold_morning.yaml` scenario to make the door open event more impactful?"
 
-## Task 3.7 *(Extra Challenge)* Implement Monte Carlo simulations to estimate the uncertainty in the temperature regulation.
+## Task 3.7.additional Implement Monte Carlo simulations to estimate the uncertainty in the temperature regulation.
 
 This involves running multiple simulations with different random seeds and analyzing the results. Use AI to help you understand how to implement this and analyze the results. This will involve providing the entire project as context, so it is especially useful to use an integrated LLM like GitHub Copilot.
 
