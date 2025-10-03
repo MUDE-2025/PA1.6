@@ -5,7 +5,7 @@
 :replace_default: "True"
 ```
 
-```{code-cell} python
+```python
 @dataclass
 class PredictiveOnOff:
     setpoint: float

@@ -5,7 +5,7 @@
 :replace_default: "True"
 ```
 
-```{code-cell} python
+```python
 from typing import Optional
 from utils.rng import RNG
 

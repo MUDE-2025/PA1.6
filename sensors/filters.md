@@ -5,7 +5,7 @@
 :replace_default: "True"
 ```
 
-```{code-cell} python
+```python
 from typing import Optional
 
 def hold_last(value: Optional[float], last: Optional[float]) -> Optional[float]:
