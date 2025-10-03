@@ -5,7 +5,7 @@
 :replace_default: "True"
 ```
 
-```{code-cell} python
+```python
 from controllers.onoff import OnOffThermostat
 
 def test_on_below_lower():

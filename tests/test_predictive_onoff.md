@@ -5,7 +5,7 @@
 :replace_default: "True"
 ```
 
-```{code-cell} python
+```python
 from controllers.predictive_onoff import PredictiveOnOff
 
 def test_predictive_turns_off_early():

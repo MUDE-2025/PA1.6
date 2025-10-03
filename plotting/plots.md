@@ -5,7 +5,7 @@
 :replace_default: "True"
 ```
 
-```{code-cell} python
+```python
 import os
 from typing import Dict, List
 import matplotlib.pyplot as plt
