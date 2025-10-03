@@ -1,6 +1,6 @@
 import os
 
-# Run me first!
+# Run me in VS Code!
 # Click the triangle button in the top right, "Run Python file"
 print('\n')
 print('If you see this message in your CLI, VS Code is set up properly!')
