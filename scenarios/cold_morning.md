@@ -23,7 +23,7 @@ controller:
   type: predictive_onoff
   setpoint: 21.0
   deadband: 1.0
-  tau: 30.0
+  tau: 10.0
   safety_high: 26.0
 
 model:
