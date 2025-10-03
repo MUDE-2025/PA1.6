@@ -1,4 +1,4 @@
-# `__init__.py`
+# `./scenarios/__init__.py`
 
 ```{custom_download_link} __init__.py
 :text: ".py"

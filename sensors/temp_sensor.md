@@ -1,4 +1,4 @@
-# `temp_sensor.py`
+# `./scenarios/temp_sensor.py`
 
 ```{custom_download_link} temp_sensor.py
 :text: ".py"

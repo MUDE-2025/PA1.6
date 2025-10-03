@@ -1,4 +1,4 @@
-# `cold_morning.yaml`
+# `./scenarios/cold_morning.yaml`
 
 ```{custom_download_link} cold_morning.yaml
 :text: ".yaml"

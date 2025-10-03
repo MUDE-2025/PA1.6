@@ -1,4 +1,4 @@
-# `rng.py`
+# `./utils/rng.py`
 
 ```{custom_download_link} rng.py
 :text: ".py"
