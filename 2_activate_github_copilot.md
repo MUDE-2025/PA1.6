@@ -34,3 +34,5 @@ Now let's try the inline-chat feature. Highlight some code and right-click 'Open
 
 ## Task 2.5.additional
 This is not required, but if you like a bit more practice before diving into the assignment, you can follow [GitHub's video tutorials](https://github.com/features/copilot/tutorials) and [Visual Studio Code's Quickstart](https://code.visualstudio.com/docs/copilot/getting-started), or if you're really into it, the full [GitHub's tutorials](https://docs.github.com/en/copilot)
+
+> By Tom van Woudenberg, Delft University of Technology. CC BY 4.0, more info [on the Credits page of Workbook](https://mude.citg.tudelft.nl/workbook-2025/credits.html).
