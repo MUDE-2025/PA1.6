@@ -1,4 +1,4 @@
-# `test_onoff.py`
+# `./tests/test_onoff.py`
 
 ```{custom_download_link} test_onoff.py
 :text: ".py"

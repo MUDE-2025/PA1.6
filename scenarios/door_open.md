@@ -1,4 +1,4 @@
-# `door_open.yaml`
+# `./scenarios/door_open.yaml`
 
 ```{custom_download_link} door_open.yaml
 :text: ".yaml"

@@ -1,4 +1,4 @@
-# `plots.py`
+# `./plotting/plots.py`
 
 ```{custom_download_link} plots.py
 :text: ".py"

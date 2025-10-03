@@ -1,4 +1,4 @@
-# `config.py`
+# `./utils/config.py`
 
 ```{custom_download_link} config.py
 :text: ".py"

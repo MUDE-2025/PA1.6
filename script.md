@@ -5,7 +5,7 @@
 :replace_default: "True"
 ```
 
-```{code-cell} python
+```python
 import os
 
 # Run me in VS Code!

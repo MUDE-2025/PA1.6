@@ -5,7 +5,7 @@
 :replace_default: "True"
 ```
 
-```{code-cell} python
+```python
 import argparse
 from scenarios.runner import run_scenario
 
