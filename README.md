@@ -18,7 +18,7 @@ Beware, the third assignment can be a bit of a challenge. But try to co-program 
 
 You pass this PA if you:
 - You've created a new python script called `my_first_script.py` which returns correct results
-- You've completed the thermostat scripts:
+- You've completed the thermostat scripts. Note that this doesn't require you to write all code yourself, you can use GitHub Copilot to help you. Furthermore, part of it is already implemented, and not all missing parts of the package are required to be completed
   - The onoff controller works correctly:
     - Turns heating on when the temperature drops below the lower deadband limit.
     - Turns heating off when the temperature rises above the upper deadband limit.
@@ -27,7 +27,5 @@ You pass this PA if you:
   - The predictive on/off controller passes the following tests:
     - It turns heating off early if the predicted temperature will exceed the upper deadband limit, even if the current temperature is below the threshold.
     - It turns heating on when the temperature is falling and the predicted value will drop below the lower deadband limit.
-  - The `step_room` function in the room module:
-    - Gives a higher temperature after one simulation step with the heater on compared to off.
 
 > By Tom van Woudenberg and Stanislaw Ostyk-Narbutt, Delft University of Technology. CC BY 4.0, more info [on the Credits page of Workbook](https://mude.citg.tudelft.nl/workbook-2025/credits.html).
