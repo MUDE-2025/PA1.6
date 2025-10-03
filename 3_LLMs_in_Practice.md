@@ -66,7 +66,7 @@ conda install pyyaml pytest
 
 Use AI to familiarize yourself with the provided codebase. Understand how the different modules interact with each other. Also use it to understand the file structure.
 
-> Example prompt: "Explain the file structure of this project and how the different modules interact with each other."
+> Example prompt: "Explain the file structure of this project's main.py and how the different modules interact with each other."
 
 ## Task 3.3 Implement the `onoff` controller in `assignment-files/controllers/onoff.py`
 
