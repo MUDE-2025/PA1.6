@@ -2,7 +2,7 @@
 
 You can preview this assignment on https://mude.citg.tudelft.nl/workbook-2025/assignments/PA1.6/README.html. This preview doesn't include a preview of the `.py` files. You can obtain your personal repository for submission on: https://classroom.github.com/a/TTP4Saia
 
-Before you can start this assignment, read the theory pages in the book chapter [Large language models](https://mude.citg.tudelft.nl/2025/book/programming/week_1_6.html):
+Before you can start this assignment, read the theory pages in the book chapter [Large language models](https://mude.citg.tudelft.nl/book/2025/programming/week_1_6.html):
 - [Effective prompting](https://mude.citg.tudelft.nl/book/2025/_git/github.com_TeachBooks_learn-programming/mude-2025/book/llms/effective-prompting.html)
 - [Generating code exercise](https://mude.citg.tudelft.nl/book/2025/_git/github.com_TeachBooks_learn-programming/mude-2025/book/llms/generating-code.html)
 - [Debugging errors exercise](https://mude.citg.tudelft.nl/book/2025/_git/github.com_TeachBooks_learn-programming/mude-2025/book/llms/debugging-errors.html)
@@ -12,7 +12,7 @@ In this assignment you'll make exercises on:
 
 1. [Python scripts in VS Code](./1_py_files.md)
 2. [Activate GitHub Copilot in VS Code](./2_activate_github_copilot.md)
-3. [Programming a Thermostat with AI](./3_programming_a_thermostat_with_ai.ipynb)
+3. [Programming a Thermostat with AI](./3_LLMs_in_Practice.md)
 
 Beware, the third assignment can be a bit of a challenge. But try to co-program with GitHub Copilot! There's no need to complete it fully, as long as you fulfill the criteria below.
 
