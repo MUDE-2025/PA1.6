@@ -21,7 +21,7 @@ python script.py
 Note that if you get stuck in the Python interpreter in your CLI, you can type `exit()` to get back to the native CLI prompt.
 
 ## Task 1.3 Create your own python script
-Create a new file called `my_first_script.py` and add the following code:
+Create a new file called `my_first_script.py` and add the following code. Complete is by filling in the missing parts:
 
 ```python
 import numpy as np
