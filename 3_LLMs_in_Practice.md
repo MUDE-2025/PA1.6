@@ -74,7 +74,7 @@ This controller should turn the heater on when the temperature is below the setp
 
 > Example prompt: "How does the onoff controller work and how can I implement it in Python?"
 
-## Task 3.4 Implement all auxiliary functions in the other modules. 
+## Task 3.4.additional Implement all auxiliary functions in the other modules. 
 
 Implement all auxiliary functions in the other modules. Use AI to help you understand the purpose of each function and how to implement it.
 
@@ -82,17 +82,17 @@ Implement all auxiliary functions in the other modules. Use AI to help you under
 
 *Please note that not all implementation are required to pass the assignment, as soon as you've passed the tests you passed the assignment. However, we welcome you to implement as much as you like.*
 
-## Task 3.5 Test your implementation
+## Task 3.5.additional Test your implementation
 
 Test your implementation by running the provided scenarios and checking the plots generated in the `outputs/figures` folder. 
 
-## Task 3.6 Modify the scenarios
+## Task 3.6.additional Modify the scenarios
 
 Use AI to help you modify the scenarios and make the heater more sensitive, more powerful, or to create more challenging scenarios. Then investigate how the duty cycle and temperature regulation change.
 
 > Example prompt: "How can I modify the `cold_morning.yaml` scenario to make the door open event more impactful?"
 
-## Task 3.7 *(Extra Challenge)* Implement Monte Carlo simulations to estimate the uncertainty in the temperature regulation.
+## Task 3.7.additional Implement Monte Carlo simulations to estimate the uncertainty in the temperature regulation.
 
 This involves running multiple simulations with different random seeds and analyzing the results. Use AI to help you understand how to implement this and analyze the results. This will involve providing the entire project as context, so it is especially useful to use an integrated LLM like GitHub Copilot.
 
