@@ -58,7 +58,7 @@ sim:
 First, install the required dependencies by running:
 
 ```bash
-conda active mude-base
+conda activate mude-base
 conda install pyyaml pytest
 ```
 
