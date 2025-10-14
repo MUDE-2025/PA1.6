@@ -5,7 +5,7 @@
 :replace_default: "True"
 ```
 
-```{code-cell} python
+```python
 import numpy as np
 
 def nerdy_computation(x):
