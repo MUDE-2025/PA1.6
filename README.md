@@ -1,6 +1,6 @@
 # Programming assignment 1.6 BotHeat.py
 
-You can preview this assignment on https://mude.citg.tudelft.nl/workbook-2025/assignments/PA1.6/README.html. You can obtain your personal repository for submission on: https://classroom.github.com/a/TTP4Saia
+You can preview this assignment on https://mude.citg.tudelft.nl/workbook-2025/assignments/PA1.6/README.html. After the deadline, this link will include solutions. The preview of the assignment version is shared here: https://mude.citg.tudelft.nl/workbook-2025/no_solutions/assignments/PA1.6/README.html. You can obtain your personal repository for submission on: https://classroom.github.com/a/TTP4Saia
 
 Before you can start this assignment, read the theory pages in the book chapter [Large language models](https://mude.citg.tudelft.nl/book/2025/programming/week_1_6.html):
 - [Effective prompting](https://mude.citg.tudelft.nl/book/2025/_git/github.com_TeachBooks_learn-programming/mude-2025/book/llms/effective-prompting.html)
